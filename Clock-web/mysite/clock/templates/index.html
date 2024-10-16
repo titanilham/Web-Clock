@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link rel="stylesheet" href="{% static "css/styles.css" %}" />
+    
+</head>
+<body>
+    <input type="image" data-tippy-content="Full Screen" src="{% static "images/full_size.png" %}" name="submit" id="fullscreen-btn">
+    
+    <div class='time_container'>
+        <h1 class='time'><span id="time">{{ current_time|date:"H:i:s" }}</span></h1>
+    </div>
+    
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+
+    <script type="text/javascript" src={% static "js/script.js" %}></script>
+</body>
+</html>

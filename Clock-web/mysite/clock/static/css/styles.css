@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+body{
+    
+    color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://r4.wallpaperflare.com/wallpaper/695/331/660/digital-art-artwork-women-cityscape-wallpaper-59b0881d51fa2dfbf647a81ff071b6dd.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+
+.time{
+
+    cursor: default;
+    font-family: "Caveat";
+    font-size: 1500%;
+    font-weight: 100;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}   
+
+#fullscreen-btn {
+    position: absolute; /* Position the image absolutely */
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    cursor: pointer;
+    font-family: "Caveat";
+}
